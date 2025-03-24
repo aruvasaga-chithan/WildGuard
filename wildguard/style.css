@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('elephant_banner2.jpg');
+    background-size: cover;
+    background-position: center; /* Centers the elephant image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.author {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #f1c40f; /* Gold color for the author's name */
+}
+
+p {
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.log-section {
+    background-color: rgba(255, 255, 255, 0.6); /* Reduced transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    text-align: center;
+    overflow-y: auto; /* Allows scrolling if needed */
+    max-height: 70vh; /* Restricts the section to a maximum height */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.delete-button {
+    background-color: red; /* Red color for delete button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: darkred; /* Darker red on hover */
+}
